@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  k_id: 1
+  name: MyText
+  description: MyText
+  thumbnail_url: MyText
+  file_url: MyText
+  width: 1
+  height: 1
+  author: MyText
+  category: MyText
+  visible: false
+  instructions: MyText
+
+two:
+  k_id: 1
+  name: MyText
+  description: MyText
+  thumbnail_url: MyText
+  file_url: MyText
+  width: 1
+  height: 1
+  author: MyText
+  category: MyText
+  visible: false
+  instructions: MyText

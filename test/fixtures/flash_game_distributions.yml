@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fgd_id: 1
+  name: MyString
+  description: MyString
+  thumbnail_url: MyString
+  file_url: MyString
+  width: 1
+  height: 1
+  author: MyString
+  category: MyString
+  visible: 1
+  instructions: MyString
+  tags: MyString
+  mochi_id: MyString
+  author_link: MyString
+
+two:
+  fgd_id: 1
+  name: MyString
+  description: MyString
+  thumbnail_url: MyString
+  file_url: MyString
+  width: 1
+  height: 1
+  author: MyString
+  category: MyString
+  visible: 1
+  instructions: MyString
+  tags: MyString
+  mochi_id: MyString
+  author_link: MyString

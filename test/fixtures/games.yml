@@ -1,0 +1,51 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyText
+  description: MyText
+  url: MyText
+  category_id: 1
+  category_parent: 1
+  hits: 1
+  published: false
+  user_submit: MyText
+  width: 1
+  height: 1
+  image_url: MyText
+  import: MyText
+  filetype: MyText
+  instructions: MyText
+  mochi: false
+  rating: 9.99
+  date_added: 2012-12-29 14:17:06
+  advert_id: 1
+  highscores: false
+  mochi_id: MyText
+  seo_url: MyText
+  submitted_by: 
+  html_code: MyText
+
+two:
+  name: MyText
+  description: MyText
+  url: MyText
+  category_id: 1
+  category_parent: 1
+  hits: 1
+  published: false
+  user_submit: MyText
+  width: 1
+  height: 1
+  image_url: MyText
+  import: MyText
+  filetype: MyText
+  instructions: MyText
+  mochi: false
+  rating: 9.99
+  date_added: 2012-12-29 14:17:06
+  advert_id: 1
+  highscores: false
+  mochi_id: MyText
+  seo_url: MyText
+  submitted_by: 
+  html_code: MyText

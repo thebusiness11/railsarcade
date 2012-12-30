@@ -1,0 +1,31 @@
+<div class="users-container">  <div class="users-container-title">
+    <h1>Edit <%= resource_name.to_s.humanize %></h1>
+</div>
+
+<div class="row">
+    <div class="span6 users-container-content">
+      <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
+        <%= devise_error_messages! %>
+
+        <%= f.label :email %>
+        <%= f.email_field :email %>
+
+        <%= f.label :username %>
+        <%= f.text_field :username %>
+
+        <%= f.label :password %> (leave blank if not changing)
+        <%= f.password_field :password, :autocomplete => "off" %>
+
+        <%= f.label :password_confirmation %>
+        <%= f.password_field :password_confirmation %>
+
+        <% if f.object.encrypted_password.present? %>
+            <%= f.label :current_password %> (needed to confirm changes)
+            <%= f.password_field :current_password %>
+        <% end %>
+        <%= f.submit "Update", class: "btn btn-medium btn-danger" %>
+      <% end %>
+  </div>
+  </div>
+<%= link_to "Back", :back %>
+</div>

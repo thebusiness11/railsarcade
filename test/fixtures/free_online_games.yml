@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fog_id: 1
+  name: MyText
+  description: MyText
+  thumbnail_url: MyText
+  file_url: MyText
+  width: 1
+  height: 1
+  author: MyText
+  author_link: MyText
+  category: MyText
+  visible: false
+  instructions: MyText
+  featured: false
+  tags: MyText
+  highscores: false
+
+two:
+  fog_id: 1
+  name: MyText
+  description: MyText
+  thumbnail_url: MyText
+  file_url: MyText
+  width: 1
+  height: 1
+  author: MyText
+  author_link: MyText
+  category: MyText
+  visible: false
+  instructions: MyText
+  featured: false
+  tags: MyText
+  highscores: false

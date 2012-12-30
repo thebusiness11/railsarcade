@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  game_id: 1
+  leaderboard_id: MyText
+  leaderboard_name: MyText
+  data_type: MyText
+  order_by: MyText
+  label: MyText
+
+two:
+  game_id: 1
+  leaderboard_id: MyText
+  leaderboard_name: MyText
+  data_type: MyText
+  order_by: MyText
+  label: MyText

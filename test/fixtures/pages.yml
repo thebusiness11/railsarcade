@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyText
+  content: MyText
+  menu: 1
+  seo_url: MyText
+  meta_tags: MyText
+
+two:
+  name: MyText
+  content: MyText
+  menu: 1
+  seo_url: MyText
+  meta_tags: MyText

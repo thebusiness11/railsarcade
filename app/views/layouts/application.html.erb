@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Railsarcade</title>
+  <title>RailsArcade</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag    "http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/blitzer/jquery-ui.css" %>
+
   <%= csrf_meta_tags %>
+  <%= render 'layouts/shim' %>
 </head>
 <body>
-
-<%= yield %>
-
+	<%= render 'layouts/header' %>
+			<div class="container">
+        <div class="errors">
+          <%= render 'shared/errors' %>
+        </div>
+			<%= yield %>
+			<%= render 'layouts/footer' %>
+			<%= debug(params) if Rails.env.development? %>
+		</div>  
 </body>
 </html>
