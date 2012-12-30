@@ -10,7 +10,7 @@ gem "figaro"
 gem "rails_admin", "~> 0.2.0"
 gem "cancan"
 gem "squeel", "~> 1.0.13"
-
+gem 'seed-fu'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'

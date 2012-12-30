@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121230032958) do
+ActiveRecord::Schema.define(:version => 20121230035749) do
 
   create_table "ads", :force => true do |t|
     t.string   "name"
@@ -367,6 +367,22 @@ ActiveRecord::Schema.define(:version => 20121230032958) do
     t.string   "uid"
     t.text     "image"
     t.boolean  "admin",                  :default => false
+    t.text     "about"
+    t.text     "group"
+    t.text     "location"
+    t.text     "interests"
+    t.text     "website"
+    t.integer  "plays"
+    t.datetime "joined"
+    t.text     "favorites"
+    t.integer  "points"
+    t.integer  "ratings"
+    t.integer  "comments"
+    t.integer  "messages"
+    t.integer  "referrer"
+    t.datetime "last_comment"
+    t.text     "seo_url"
+    t.integer  "friend_requests"
   end
 
   add_index "users", ["confirmation_token"], :name => "index_users_on_confirmation_token", :unique => true
